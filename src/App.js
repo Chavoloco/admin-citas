@@ -30,7 +30,7 @@ function App() {
 
   //Funcion para eliminar citas por id
   const eliminarCita = id => {
-    const nuevasCitas = citas.filter( cita => cita.id != id);
+    const nuevasCitas = citas.filter( cita => cita.id !== id);
     guardarCitas(nuevasCitas);
   }
 
